@@ -27,7 +27,7 @@ The system processes raw text (e.g., market reports or news articles) through a 
 
 ---
 
-## ## Tech Stack
+## Tech Stack
 
 * **Language**: Python
 * **LLM Interface**: `langextract` (utilizing Ollama for Llama 3.1)
