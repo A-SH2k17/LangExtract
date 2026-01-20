@@ -301,7 +301,7 @@ def create_graph_and_visualize(extractions):
 
 
 def main():
-    #create_extraction_and_print_results()
+    #create_extraction_and_print_results() /
     with open('financial_information_extractions.jsonl', 'r') as file:
         # Load the JSON data into a Python object
         result = json.load(file)
