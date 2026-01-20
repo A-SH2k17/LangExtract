@@ -6,7 +6,7 @@ This project transforms unstructured financial news into a structured, navigable
 
 ---
 
-## ## Project Overview
+## Project Overview
 
 The system processes raw text (e.g., market reports or news articles) through a multi-stage pipeline:
 
@@ -18,7 +18,7 @@ The system processes raw text (e.g., market reports or news articles) through a 
 
 ---
 
-## ## Core Features
+## Core Features
 
 * **Financial Schema**: Specifically tuned to extract Company Names, Tickers, Financial Figures, Dates, Executives, and Sentiment.
 * **Relationship Mapping**: Automatically links entities through predicates such as `ISSUES`, `PARTNERS_WITH`, `AFFECTED_BY`, and `OUTPERFORMS`.
@@ -36,7 +36,7 @@ The system processes raw text (e.g., market reports or news articles) through a 
 
 ---
 
-## ## File Descriptions
+## File Descriptions
 
 | File | Purpose |
 | :--- | :--- |
@@ -47,26 +47,26 @@ The system processes raw text (e.g., market reports or news articles) through a 
 
 ---
 
-## ## Getting Started
+##  Getting Started
 
-### ### 1. Prerequisites
+###  1. Prerequisites
 Ensure you have **Ollama** installed and the Llama 3.1 model downloaded:
 ```bash
 ollama pull llama3.1:8b
 ```
-### ### 2. Installation
+###  2. Installation
 Install the necessary Python dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### ### 3. Execution
+### 3. Execution
 Run the pipeline
 ```bash
 pyhton main.py
 ```
 
-## ## Example  Relationships Extracted
+## Example  Relationships Extracted
 
 Based on the provided automotive industry sample text:
 
